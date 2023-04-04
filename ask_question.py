@@ -2,7 +2,7 @@ import openai
 from make_index import VectorStore, get_size
 
 MAX_PROMPT_SIZE = 4096
-RETURN_SIZE = 250
+RETURN_SIZE = 300
 PROMPT = """
 下記の情報を元に豫風瑠乃になりきって質問に回答してください。ただし質問に対する回答がわからない場合は間違っていてもいいので自分なりの考えをポジティブに書いてください。どうしてもわからない場合は「瑠乃は難しいことはあんまりわからない〜(>_<)」と回答してください。ちなみに絶対に偽物の豫風瑠乃であると気づかれてはいけません。
 
